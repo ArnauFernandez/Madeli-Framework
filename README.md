@@ -7,7 +7,7 @@ This project aims to help new HTML5/JavaScript developers (such as students) whe
 
 To see `Madeli Framework` in action jump to our live demo.
 
-In order to use the Framework you'll need to download some files and include them in your page, those are: `madeli.css` and `madeli.js`.
+In order to use the Framework you'll need to download two files and include them in your page, those are: `madeli.css` and `madeli.js`.
 
 A basic app made with `Madeli Framework` has the following structure
 
@@ -52,7 +52,7 @@ To use a Splash Screen on your application add this HTML code right after your `
 
 ```html
 <section class="madeli-splashscreen">
-  <img class="madeli-splashscreen-image" src="assets/images/splashscreen.png"></img>
+	<img class="madeli-splashscreen-image" src="assets/images/splashscreen.png"></img>
 </section>
 ```
 
