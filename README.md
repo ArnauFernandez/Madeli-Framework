@@ -9,6 +9,16 @@ Work in progress...
 
 ### Splash Screen
 
+To use a Splash Screen on your application add this HTML code right after your `body` tag.
+
+```
+  <section class="madeli-splashscreen">
+    <img class="madeli-splashscreen-image" src="assets/images/splashscreen.png"></img>
+  </section>
+```
+
+Then create an image called `splashscreen.png` and save it under `assets/images/` or use a custom location.
+
 ### App Screen
 
 ### Toolbar
