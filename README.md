@@ -9,7 +9,7 @@ To see `Madeli Framework` in action jump to our [Live Demo] (app.html).
 
 In order to use the Framework you'll need to download `madeli.css` and `madeli.js`. Include them on your `head` tag and `script` tag respectively. Once you've done that, you can start inserting `Madeli` components to build your app.
 
-**Important:*** If you decide to add a new .css and/or .js file, please add them after the ones provided by the Framework to avoid overriding them.
+**Important:** If you decide to add a new .css and/or .js file, please add them after the ones provided by the Framework to avoid overriding them.
 
 # Components
 
