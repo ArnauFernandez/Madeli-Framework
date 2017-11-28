@@ -5,44 +5,11 @@ This project aims to help new HTML5/JavaScript developers (such as students) whe
 
 # Get Started
 
-To see `Madeli Framework` in action jump to our live demo.
+To see `Madeli Framework` in action jump to our [Live Demo] (app.html).
 
-In order to use the Framework you'll need to download two files and include them in your page, those are: `madeli.css` and `madeli.js`.
+In order to use the Framework you'll need to download `madeli.css` and `madeli.js`. Include them on your `head` tag and `script` tag respectively. Once you've done that, you can start inserting `Madeli` components to build your app.
 
-A basic app made with `Madeli Framework` has the following structure
-
-```html
-<!DOCTYPE html>
-
-<html>
-
-	<head>
-		<title>Madeli App</title>
-		<link rel="stylesheet" type="text/css" href="madeli.css">
-	</head>
-
-	<body>
-
-		<!-- SPLASH SCREEN -->
-		<section class="madeli-splashscreen">
-			<img class="madeli-splashscreen-image" src="assets/images/splashscreen.png"></img>
-		</section>
-
-		<!-- APP SCREEN #1 -->
-		<section class="madeli-appscreen"></section>
-
-		<!-- APP SCREEN #2 -->
-		<section class="madeli-appscreen"></section>
-
-		<!-- APP SCREEN #3 -->
-		<section class="madeli-appscreen"></section>
-
-	</body>
-
-	<script type="application/javascript" src="madeli.js"></script>
-
-</html>
-```
+**Important:*** If you decide to add a new .css and/or .js file, please add them after the ones provided by the Framework to avoid overriding them.
 
 # Components
 
