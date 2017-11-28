@@ -19,7 +19,7 @@ To use a Splash Screen on your application add this HTML code right after your `
 
 ```html
 <section class="madeli-splashscreen">
-	<img class="madeli-splashscreen-image" src="assets/images/splashscreen.png"></img>
+  <img class="madeli-splashscreen-image" src="assets/images/splashscreen.png"></img>
 </section>
 ```
 
