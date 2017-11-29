@@ -23,7 +23,7 @@ Components provides a list of UI (User Interface) components that will let you b
 
 Logic provides a list of JavaScript functions that can be used to build the application logic i.e open/close screens, open/close dialogs, etc.
 
-Both Components and Logic make use of `madeli.css` and `madeli.js` respectively and of course they can be used separately.
+Both Components and Logic make use of `madeli.css` and `madeli.js` respectively and they can be used independently.
 
 ### Components
 
