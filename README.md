@@ -41,6 +41,14 @@ Then create an image called `splashscreen.png` and save it under `assets/images/
 
 ###### App Screen
 
+To declare a new App Screen use the following code. Then you can simply insert whatever components you want inside the section.
+
+```html
+<section class="madeli-appscreen">
+
+</section>
+```
+
 ###### Toolbar
 
 ###### Navigation Drawer
