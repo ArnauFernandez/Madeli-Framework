@@ -15,7 +15,6 @@ You can start a blank Madeli project by following these steps:
 1. Create a folder for your project i.e "Project"
 
 2. Create 3 subfolders inside project folder:
-
   - assets
   - css
   - js
