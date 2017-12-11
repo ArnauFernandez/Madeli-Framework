@@ -85,15 +85,17 @@ To declare a new App Screen use the following code. Then you can simply insert w
 
 ###### Toolbar
 
-Use the following code to instate a Toolbar located at the top of the screen. Add as many right icons as you want but you may not want to put more than 3.
+Use the following code to instate a Toolbar located at the top of the screen. Add as many right icons as you want but you may not want to put more than 3. Icons should be declared using Material Design Iconfont nomenclature, you can find the complete documentation (here) [https://material.io/icons/]
 
 ```html
 <div class="madeli-appscreen-toolbar">
-  <img class="madeli-appscreen-toolbar-left-icon" src=""></img>
-  <p class="madeli-appscreen-toolbar-title"></p>
-  <img class="madeli-appscreen-toolbar-right-icon" src=""></img>
-  <img class="madeli-appscreen-toolbar-right-icon" src=""></img>
-  <img class="madeli-appscreen-toolbar-right-icon" src=""></img>
+    <i class="madeli-appscreen-toolbar-left-icon material-icons">menu</i>
+    <p class="madeli-appscreen-toolbar-title">Some random title</p>
+    <div class="madeli-appscreen-toolbar-actionbar">
+        <i class="madeli-appscreen-toolbar-right-icon material-icons">search</i>
+        <i class="madeli-appscreen-toolbar-right-icon material-icons">view_agenda</i>
+        <i class="madeli-appscreen-toolbar-right-icon material-icons">more_vert</i>
+    </div>
 </div>
 ```
 
