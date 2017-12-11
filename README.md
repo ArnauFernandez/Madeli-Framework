@@ -68,18 +68,20 @@ To declare a new App Screen use the following code. Then you can simply insert w
 ```html
 <section class="madeli-appscreen visible">
 
-  <div class="madeli-appscreen-toolbar">
-    <img class="madeli-appscreen-toolbar-left-icon" src=""></img>
-    <p class="madeli-appscreen-toolbar-title"></p>
-    <img class="madeli-appscreen-toolbar-right-icon" src=""></img>
-    <img class="madeli-appscreen-toolbar-right-icon" src=""></img>
-    <img class="madeli-appscreen-toolbar-right-icon" src=""></img>
-  </div>
+    <div class="madeli-appscreen-toolbar">
+        <i class="madeli-appscreen-toolbar-left-icon material-icons">menu</i>
+        <p class="madeli-appscreen-toolbar-title">Some random title</p>
+        <div class="madeli-appscreen-toolbar-actionbar">
+            <i class="madeli-appscreen-toolbar-right-icon material-icons">search</i>
+            <i class="madeli-appscreen-toolbar-right-icon material-icons">view_agenda</i>
+            <i class="madeli-appscreen-toolbar-right-icon material-icons">more_vert</i>
+        </div>
+    </div>
 
-  <div class="madeli-appscreen-content">
-  
-  </div>
-  
+    <div class="madeli-appscreen-content">
+
+    </div>
+
 </section>
 ```
 
