@@ -1,17 +1,40 @@
 # Madeli-Framework
 High performant, robust and simple **Material Design Framework** designed to be used on Cordova/PhoneGap SPAs (Single Page Applications). This project aims to help new HTML5/JavaScript developers (such as students) to build SPAs.
 
+# Requirements
+
+- Android 5.0 (Lollipop) or higher
+- Material Design 'Roboto' Webfont (optional but highly recommended)
+
 # Get Started
 
 To see `Madeli Framework` in action jump to our Live Demo.
 
-You can start a blank Madeli project by following 3 simple steps:
+You can start a blank Madeli project by following these steps:
 
-1. Create a new HTML page with the following code
+1. Create a folder for your project i.e "Project"
 
-2. Read the Documentation to see how to add new components and the logic behind the app by using `madeli.css` and `madeli.js`
+2. Create 3 subfolders inside project folder:
 
-3. Add Components and Logic to build your app.
+  - assets
+  - css
+  - js
+  
+3. Create an index.html file inside project folder and paste the following code:
+
+```html
+WORK IN PROGRESS
+```
+
+At this point you should have a folder called "Project" with 3 folders and a HTML file.
+
+4. Download `madeli.css` and `madeli.js` and place them inside css and js folders respectively.
+
+5. (Recommended) Download Material Design 'Roboto' webfont and place it inside /assets/fonts
+
+6. Read the Documentation to see how to add new components and the logic behind the app by using `madeli.css` and `madeli.js`
+
+7. Add Components and Logic to build your app.
 
 **Important:** If you decide to add a new .css and/or .js file, please add them after the ones provided by the Framework to avoid overriding.
 
@@ -41,15 +64,39 @@ Then create an image called `splashscreen.png` and save it under `assets/images/
 
 ###### App Screen
 
-To declare a new App Screen use the following code. Then you can simply insert whatever components you want inside the section.
+To declare a new App Screen use the following code. Then you can simply insert whatever components you want inside the `content` section. Be sure to use the class `visible`, otherwise the screen won't display anything. To hide the screen change the class to `hidden` (useful if your application has a Splash Screen).
 
 ```html
-<section class="madeli-appscreen">
+<section class="madeli-appscreen visible">
 
+  <div class="madeli-appscreen-toolbar">
+    <img class="madeli-appscreen-toolbar-left-icon" src=""></img>
+    <p class="madeli-appscreen-toolbar-title"></p>
+    <img class="madeli-appscreen-toolbar-right-icon" src=""></img>
+    <img class="madeli-appscreen-toolbar-right-icon" src=""></img>
+    <img class="madeli-appscreen-toolbar-right-icon" src=""></img>
+  </div>
+
+  <div class="madeli-appscreen-content">
+  
+  </div>
+  
 </section>
 ```
 
 ###### Toolbar
+
+Use the following code to instate a Toolbar located at the top of the screen. Add as many right icons as you want but you may not want to put more than 3.
+
+```html
+<div class="madeli-appscreen-toolbar">
+  <img class="madeli-appscreen-toolbar-left-icon" src=""></img>
+  <p class="madeli-appscreen-toolbar-title"></p>
+  <img class="madeli-appscreen-toolbar-right-icon" src=""></img>
+  <img class="madeli-appscreen-toolbar-right-icon" src=""></img>
+  <img class="madeli-appscreen-toolbar-right-icon" src=""></img>
+</div>
+```
 
 ###### Navigation Drawer
 
